@@ -16,8 +16,27 @@ function setup_wallpaper(pWallpaper) {
 
 function wallpaper_background() {
   background(240, 255, 240); //light honeydew green colour
+   // Three-digit hex RGB notation.
+   fill('#fae');
+ 
+   describe('A pink square with a black outline.');
+ 
 }
 
 function my_symbol() { // do not rename this function. Treat this similarly to a Draw function
-  rect(40 ,50, rect_width, rect_height);
+
+  ellipse(75, 50, 50, 60);
+  ellipse(125, 50, 50, 60);
+  ellipse(50, 100, 60, 50);
+  ellipse(150, 100, 60, 50);
+  ellipse(75, 150, 50, 60);
+  ellipse(125, 150, 50, 60);
+  ellipse(100, 100, 70, 70);
+
+
 }
+
+ 
+  
+
+
