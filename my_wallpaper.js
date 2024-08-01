@@ -6,7 +6,8 @@
 
 //your parameter variables go here!
 
-let cat_fur_color = "#ffffff";
+let cat_fur_color = "#fffff";
+// if statwmwnr for turning on aor off whiskers
 
 
 
@@ -49,14 +50,14 @@ function my_symbol() { // do not rename this function. Treat this similarly to a
   fill(300);
   ellipse(100, 120, 20, 30); // L
   ellipse(140, 120, 20, 30); // R
-  
+  //pupil
   fill(50);
-  ellipse(95, 118, 10, 15); // L
-  ellipse(135, 118, 10, 15); // R
-  
+  ellipse(98, 118, 15, 19); // L
+  ellipse(138, 118, 15, 19); // R
+  //Highlights
   fill(300)
-  ellipse(93, 119, 3, 6); //highlight
-  ellipse(133, 119, 3, 6);//highlight
+  ellipse(95, 119, 3, 6); //L
+  ellipse(135, 119, 3, 6);//R
   
   // 画鼻子
   fill('#fae');
@@ -75,8 +76,12 @@ function my_symbol() { // do not rename this function. Treat this similarly to a
 
   //Right whiskers
   fill(50);
-  line(150,110,180,120);
+  line(160,120,185,110);
+  line(160,130,185,130);
+  line(160,140,185,150);
   
+  fill(255, 204, 100);
+  quad(50, 80, 70, 50, 50, 20, 30, 50);
   //fillPolygon(xPointsLeftEar, yPointsLeftEar, 3); // 左耳朵
 
   //ellipse( 250, 230, 240 );
