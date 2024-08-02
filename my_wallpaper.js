@@ -6,7 +6,7 @@
 
 //your parameter variables go here!
 
-let cat_fur_color = "#fffff";  // Change the color of the cat's face
+let cat_fur_color = "#141414";  // Change the color of the cat's face
 
 let cat_whiskers = true  // if statement for turning on or off whiskers
 
@@ -14,14 +14,14 @@ let cat_blush = true // if statement for turning on or off blush
 
 let cat_eye_colour = "#5ebad1"  //Change the color of the cat's eye
 
-let fish = true  // if statement for turning on or off fish
+let fish = false  // if statement for turning on or off fish
 
-let rhomboid = false // if statement for turning on or off rhomboid
+let rhomboid = true // if statement for turning on or off rhomboid
 
 function setup_wallpaper(pWallpaper) {
-  pWallpaper.output_mode(DEVELOP_GLYPH);
-  pWallpaper.resolution(FIT_TO_SCREEN);
-  pWallpaper.show_guide(true); //set this to false when you're ready to print
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(A3);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
 
   //Grid settings
   pWallpaper.grid_settings.cell_width  = 200;
